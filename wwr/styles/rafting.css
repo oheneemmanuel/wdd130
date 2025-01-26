@@ -1,0 +1,59 @@
+/* Define CSS variables */
+:root {
+    --primary-color: #3498db; /* Replace with your chosen primary color */
+    --secondary-color: #2ecc71; /* Replace with your chosen secondary color */
+    --font-color: #333; /* Replace with your chosen font color */
+  }
+  
+  /* Style headings and paragraphs */
+  h1, h2 {
+    color: var(--primary-color);
+    font-family: 'Roboto', DM-Sans; /* Replace with your chosen font */
+  }
+  
+  p {
+    color: var(--font-color);
+    font-family: 'Roboto', DM-Sans; /* Replace with your chosen font */
+  }
+  
+  /* Remove underlines from social media image links */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Style the hero container */
+  .hero {
+    position: relative;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    color: white; /* Adjust as needed */
+  }
+  
+  .hero article {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust as needed */
+    color: white; /* Adjust as needed */
+    padding: 1rem; /* Adjust as needed */
+  }
+  .float-right {
+    float: right;
+    margin-left: 10px;
+  }
+  
+
+
+
+    
+
