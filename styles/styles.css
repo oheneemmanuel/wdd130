@@ -17,14 +17,23 @@ body {
 }
 
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: var(--padding);
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+
+
 }
 
 h1 {
@@ -33,10 +42,12 @@ h1 {
     padding: var(--padding);
     
     color: var(--heading-text-colour);
+    border-bottom: 2px;
+    padding-bottom: 10px;
 }
 
 img {
-    width: 150;
+    width: 150px;
     height: auto;
     border: 1px solid rgba(0,0,0.1);
     padding: var(--padding);
@@ -48,9 +59,7 @@ p {
     margin :1rem
 }
 
-main {
-    max-width: 840px;
-}
+
 
 aside {
     width: 20rem;
@@ -101,4 +110,27 @@ aside h2 {
 .indent {
     padding-left: 2rem;
 
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
+}
+
+main {
+    grid-column: 3;
+    margin: 1rem;
+
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
 }
