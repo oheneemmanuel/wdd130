@@ -250,6 +250,12 @@ footer p {
   text-align: center;
   font-weight: 500;
 }
+.box1-contact-info iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+
+}
 .box2-support-team {
   border: 0.5px solid steelblue;
   border-radius: 1rem;
