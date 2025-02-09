@@ -27,6 +27,7 @@
     border: 1px solid steelblue;
     margin: 0 0 1rem 1rem;
     height: auto;
+  
     
     
     z-index: 1;
@@ -79,6 +80,7 @@
     margin:0 0 1rem 1rem;
     opacity: 0.8;
     top: 19rem;
+    
     
     
     
@@ -159,6 +161,7 @@ header nav {
   
   
   color: black;
+  unicode-bidi: isolate;
   
   
 }
@@ -232,6 +235,60 @@ footer p {
 
 
 }
+.container-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.bottom-section {
+  border: 1px solid steelblue;
+  border-radius: 2rem;
+  margin: 1rem;
+  
+}
+.box1-contact-info h2 {
+  text-align: center;
+  font-weight: 500;
+}
+.box2-support-team {
+  border: 0.5px solid steelblue;
+  border-radius: 1rem;
+  box-shadow: #333;
+}
+.box2-support-team img {
+  border: .2px solid steelblue;
+  border-radius: 2rem;
+}
+.box2-support-team h2 {
+  text-align: center;
+}
+.box3-send-message-us {
+  border: 1px solid steelblue;
+  border-radius: 2rem;
+}
+.box3-send-message-us h2 {
+  text-align: center;
+}
+
+
+.hero-container h1 {
+  
+  
+  left: 0;
+  right: 0;
+  text-align: center;
+  border: 1px solid steelblue;
+  padding: 1rem;
+  background-image: url(../images/contactimg.jpg);
+}
+.wireframe {
+  color: black;
+  background-color: #3498db;
+}
+
+
+
+
 
 
 
