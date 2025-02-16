@@ -22,6 +22,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    unicode-bidi: isolate-override;
 }
 
 nav a {
@@ -32,18 +33,20 @@ nav a {
     font-size: 1.2rem;
     font-weight: 700;
     color: white;
+    unicode-bidi: isolate;
 
 
 }
 
 h1 {
-    background-color: pink;
+    
     font-family: var(--heading-font);
-    padding: var(--padding);
+    
     
     color: var(--heading-text-colour);
     border-bottom: 2px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 img {
@@ -61,6 +64,7 @@ p {
 
 
 
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -70,6 +74,7 @@ aside {
     color: var(--heading-text-colour);
     text-align: center;
     position: relative;
+    
 }
 
 aside img {
@@ -85,6 +90,7 @@ main img {
     box-shadow: 0 0 30px grey;
     float: right;
     margin: 0 0 1rem 1rem;
+    
 }
 footer {
     margin-top: 15px;
@@ -97,40 +103,38 @@ aside h2 {
     left:110px;
 
 }
+main {
+    border: 1px solid steelblue;
+}
 
 /* Class selector */
-.box {
-    margin: 1rem;
+.box-indent{
+    margin: 2rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
     background-color: #eee;
     color: #000;
+    
 }
 
-.indent {
-    padding-left: 2rem;
 
-}
 
-header, .grid, footer {
-    max-width: 840px;
-    margin: 0 auto;
-}
-.grid {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 3fr;
-}
 
-main {
-    grid-column: 3;
-    margin: 1rem;
 
-}
+
+
+
 
 aside {
     width: 20rem;
     position: relative;
-    grid-column: 1;
     grid-row: 1;
+    grid-column: 1;
+    
+    
+    
+    
 }
+
+
+    
