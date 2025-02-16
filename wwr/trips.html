@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
@@ -15,115 +16,94 @@
     <header>
         <img src="images/water-splash.png" alt="logo">
         <nav>
-            <a href="">HOME</a> 
+            <a href="about.html">HOME</a> 
             <a href="#">ABOUT</a>
             <a href="trips.html">TRIPS</a>
             <a href="#">CONTACT</a>
         </nav>
 
     </header>
+
+    <!-- Main Content Section -->
     <main>
         <div class="hero-container">
-            
-            <h1>All IS Well Water Rafting</h1>
-
+            <h1>All Is Well Water Rafting </h1>
         </div>
+        <!-- Call to Action to Contact Us -->
+        <section class="cta-contact">
+            <p>Have questions or want to book a trip? <a href="contact.html" class="btn-cta">Contact Us</a></p>
+        </section>
 
-
-        
-        
-
-        
-        
-        <div class="container-content">
+        <!-- Trip Descriptions -->
+        <section class="trip-descriptions">
+            <h2>Our Rafting Trips</h2>
+            <p>Here are some of our rafting trips we have embark on, you can go through to check it out  </p>
+            <p>⬇</p>
             
-            <div class="call-to-action">
-                <div class="box1-contact-info">
-                    <h2>Contact Us </h2>
-                    <p>Do you need more Information ? We are ready to help <a href='contact.html'>Contact Us</a>.</p>
-
-                    
-
-                </div>
+            <div class="trip-card">
+                <img src="images/raft3.jpg" alt="River Adventure Trip">
+                <h3>River Adventure Trip</h3>
+                <p>Come lets all enjoy together with this amazing water raft !</p>
             </div>
-
-            <div class="box2-support-team">
-                <h2>Contact The Support Team For Help</h2>
-                <img src="images/manager1.jpg" alt="Hayford">
-                <p>'hello i am Hayford contact me for any help'</p>
-                <img src="images/manager2.jpg" alt="Gilbert">
-                <p>'Hi I am Gilbert reach out me for help'</p>
-                <img src="images/manager5.jpg" alt="Eunica">
-                <p>Heya I am Eunica, whats the problem with you</p>
-
+            <div class="trip-card">
+                <img src="images/raft5.jpg" alt="Family Rafting Trip">
+                <h3>Family Rafting Trip</h3>
+                <p>A fun-filled experience for families with a calm river to have your water raft savely.</p>
             </div>
+            <div class="trip-card">
+                <img src="images/raft2.jpg" alt="Extreme Rapids Trip">
+                <h3>Extreme Rapids Trip</h3>
+                <p>For this is very hard we need experienced people to embark on.</p>
+            </div>
+        </section>
 
+        <!-- Trip Information Table -->
+        <section class="trip-table">
+            <h2>Trip Overview</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Time</th>
+                        <th>Level</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>River Adventure Trip</td>
+                        <td>2 Hours</td>
+                        <td>Intermediate</td>
+                        <td>$70</td>
+                    </tr>
+                    <tr>
+                        <td>Family Rafting Trip</td>
+                        <td>3 Hours</td>
+                        <td>Easy</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Extreme Rapids Trip</td>
+                        <td>4 Hours</td>
+                        <td>Advanced</td>
+                        <td>$90</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-            <div class="box3-send-message-us">
-                <h2>Send Us A Message</h2>
-                <form>
-                    <fieldset>
-                        <legend><strong>Contact Info</strong></legend>
-                        <div class="form-item">
-                            <label for="fullname">Full Name:</label>
-                            <input type="text" id="fullname" name="fullname"><br>
-                        </div>
-                        <div class="form-item">
-                            <label for="useremail">Email:</label>
-                            <input type="email" id="useremail" name="useremail">
-
-                        </div>
-
-                    </fieldset>
-                    <fieldset>
-                        <legend><strong>Answer:</strong></legend>
-                        <label>What is the problem you are facing </label>
-                        <div>
-                            <input type="radio" id="general" name="contact_reason" value="General Inquiry">
-                            <label for="general">General Inquiry</label>
-                        </div>
-                        <div>
-                            <input type="radio" id="reservation" name="contact_reason" value="Reservation Question">
-                            <label for="reservation">Reservation Question</label>
-                        </div>
-            --            <div>
-                            <input type="radio" id="suggestion" name="contact_reason" value="Website Suggestion">
-                            <label for="suggestion">Website Suggestion</label>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend><strong>Choose an Expert:</strong></legend>
-                        <label>Which of the experts would you like to send a message to?</label>
-                        <div>
-                            <input type="radio" id="Hayford" name="expert_contact" value="Hayford">
-                            <label for="Hayford">Hayford - specialist in helping beginners.</label>
-                        </div>
-                        <div>
-                            <input type="radio" id="Gilbert" name="expert_contact" value="Cindy">
-                            <label for="Gilbert">Gilbert - specialist for intermediate users.</label>
-                        </div>
-                        
-                    </fieldset>
-                    <div class="write_message">
-                        <label for="feedback"><strong>Write your message for us:</strong></label>
-                        <br>
-                        <textarea id="feedback" name="feedback" rows="4" placeholder="Type your message here..."></textarea>
-                    </div>
-                    <div class="newsletter_option">
-                        <input type="checkbox" id="subscribe" name="subscribe">
-                        <label for="subscribe"> Please subscribe me to the monthly newsletter</label>
-                    </div>
-                    <br>
-              
-              ---      <button type="submit">Submit Poll</button><br><br>
-
-                    <ul class="wireframe">
-                        <li><a href="https://app.moqups.com/F5DeQGLrWc1wxcSY9qJv7Ywv7tzAZyDK/view/page/ad64222d5/object/313739cb" target="_blank">view wireframe</a></li>
-                    </ul>
-                </form>
-        </div>
+        <!-- Wireframe Image Link in Footer -->
+        <footer>
+            <p>&copy; 2025 WWR Rafting. All rights reserved.</p>
+            
+            <p><a href="images/trips wireframe.jpg" target="_blank">View Trips Page Wireframe</a></p>
+        </footer>
     </main>
-    
+</body>
+</html>
+
+
+
     <footer>
         <p>&copy;2025|The Company Name|Ohene Kwakye Emmanuel. All Rights Reserved. </p>
 
@@ -141,5 +121,3 @@
         
         
     </footer>
-</body>
-</html>  
