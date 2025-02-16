@@ -377,6 +377,153 @@ footer p {
   color: white;
 }
 
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+}
+
+/* Newsletter Signup */
+.newsletter {
+  background-color: #f4f4f4;
+  padding: 40px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  margin-bottom: 20px;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter label {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+  max-width: 90%;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: steelblue;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.newsletter button:hover {
+  background-color: steelblue;
+}
+
+/* Call to Action Section */
+.cta {
+  text-align: center;
+  background-color: steelblue;
+  color: white;
+  padding: 40px;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #e2e2e2;
+}
+
+/* Grid Layout */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 40px;
+}
+
+.grid-item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-item h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.grid-item p {
+  font-size: 1rem;
+  color: black;
+}
+
 
 
 
